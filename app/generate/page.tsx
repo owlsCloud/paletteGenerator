@@ -1,7 +1,13 @@
-import React from "react";
+import Palette from "../components/Palette";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <>
+      <section className="w-full h-screen flex">
+        <Palette />
+      </section>
+    </>
+  );
 };
 
 export default page;

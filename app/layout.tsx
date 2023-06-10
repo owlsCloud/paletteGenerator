@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={mont.className}>
+      <body className={`w-full h-full ${mont.className}`}>
         <Navbar />
         {children}
       </body>
